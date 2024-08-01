@@ -1,0 +1,77 @@
+body { /*Impostazione sfondo pagina*/
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1%;
+}
+
+body > div { /*Elementi CSS del riquadro principale contenente tutta la pagina*/
+  margin: auto;
+  width: 60%;
+  height: auto;
+  background-color: #0000008c;
+  border-radius: 2%;
+  text-align: center;
+  color: white;
+  padding: 5%;
+}
+
+header > img { /*Elementi CSS del logo della pagina*/
+  max-width: 20%;
+}
+
+header > h1 { /*Elementi CSS del titolo della pagina*/
+  color: #22d005;
+  margin: 5px;
+}
+
+header > div { /*Elementi CSS riquadro verde contente i pulsanti di azione*/
+  background-color: #22d005;
+  height: 40px;
+  margin: auto;
+}
+
+button { /*Elementi CSS dei 3 pulsanti di azione nel riquadro verde */
+  margin-top: 10px;
+}
+
+main > div { /*Elementi CSS di tutto il blocco della parte centrale della pagina*/
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 5px;
+}
+
+span { /*Elementi CSS di tutti i nomi di tutti i monopattini */
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p { /*Elementi CSS di tutti i dettagli di tutti i monopattini */
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+ #Gino22#Mike24#Fede154 { /*Elementi comuni a tutti i seguenti id*/
+  display: inline-block;
+}
+
+#Gino22 { /*Specifiche monopattino di Gino22*/
+  width: 200px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 2px;
+}
+
+#Mike24 { /*Specifiche monopattino di Mike24*/
+  width: 380px;
+  height: 20px;
+  background-color: #22d005;
+  border-radius: 2px;
+}
+
+#Fede154 { /*Specifiche monopattino di Fede154*/
+  width: 120px;
+  height: 20px;
+  background-color: red;
+  border-radius: 2px;
+}
